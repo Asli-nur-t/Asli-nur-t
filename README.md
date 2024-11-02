@@ -1,8 +1,8 @@
-<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35px">, I'm Aslinur Topcu!</h1>
+<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="45px">, I'm Aslinur Topcu!</h1>
 <h3 align="center">Full Stack Developer 🚀 | AI Enthusiast 💻</h3>
 
 <p align="center">
-  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="600" height="300"/>
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="700" height="350"/>
 </p>
 
 - 👩🏻‍💻 I'm always open to collaborations or discussions, so feel free to reach out: **aaslinur.topcu@gmail.com**
@@ -14,7 +14,7 @@
 <h3 align="center">Connect with Me:</h3>
 <p align="center">
   <a href="https://linkedin.com/in/https://www.linkedin.com/in/asl%c4%b1nur-topcu-871023253/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="40" width="40"/>
+    <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="50" width="50"/>
   </a>
 </p>
 
@@ -36,16 +36,15 @@
 ![Node.js](https://img.shields.io/badge/Node.js-68A063?style=for-the-badge&logo=node.js&logoColor=white)
 ![Express.js](https://img.shields.io/badge/Express.js-303030?style=for-the-badge&logo=express&logoColor=white)
 
-
 ---
 
 <h3 align="center">GitHub Stats:</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=asli-nur-t&show_icons=true&theme=tokyonight&title_color=ae00ff&locale=en" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=asli-nur-t&show_icons=true&theme=tokyonight&title_color=ae00ff&locale=en" alt="GitHub Stats" width="500"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=asli-nur-t&theme=dark" alt="GitHub Streak" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=asli-nur-t&theme=dark" alt="GitHub Streak" width="500"/>
 </p>
 
 ---
@@ -60,6 +59,7 @@
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/jTNG3RF6EwbkpD4LZx/giphy.gif" width="50">
-  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="50">
+  <img src="https://media.giphy.com/media/jTNG3RF6EwbkpD4LZx/giphy.gif" width="80">
+  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="80">
+  <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" width="80">
 </p>
