@@ -7,6 +7,7 @@
 <h3 align="center">Full Stack Developer 🚀 | AI Enthusiast 💻</h3>
 
 
+![Full Stack Developer](https://img.shields.io/endpoint?url=https%3A%2F%2Fdynamic-badge-formatter-ynrxn78r2oye.runkit.sh%2F%2Fstatus%3Furl%3Dhttps%3A%2F%2Fgithub.com%2F&query=Aslınur+Topcu&formatter=flat&style=flat-square)
 
 
 <p align="center">
