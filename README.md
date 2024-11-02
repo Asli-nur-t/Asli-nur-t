@@ -1,12 +1,9 @@
 <h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="45px">, I'm Aslinur Topcu!</h1>
 <h3 align="center">Full Stack Developer 🚀 | AI Enthusiast 💻</h3>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=28&duration=3000&pause=500&center=true&vCenter=true&width=435&lines=%E2%9C%A8+Aslınur+Topcu+%E2%9C%A8;%F0%9F%93%9A+Full+Stack+Developer+%F0%9F%92%BB;Welcome+To+My+Profile+%F0%9F%91%80&color=FF69B4,8A2BE2,FFFFFF" alt="Typing SVG" />
+</p>
 
-
-
-
-
-
-<h3 align="left">&nbsp; A passionate Fullstack Developer from Türkiye</h3>
 
 
 <p align="center">
