@@ -2,7 +2,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=30&letterSpacing=bold&pause=1000&color=C648F7&center=true&vCenter=true&multiline=true&repeat=false&width=460&lines=Hi+%F0%9F%91%8B%F0%9F%8F%BB%2C+I'm+Asl%C4%B1nur+Topcu!" alt="Typing SVG" /></a>
 </h1>
 <p align="center">
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=1000&color=EE2DF7&center=true&vCenter=true&width=489&height=64&lines=%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB+Full+Stack+Developer+%7C+AI+Enthusiast+%F0%9F%92%BB" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=1000&color=F7F7F7&center=true&vCenter=true&width=550&height=64&lines=+Full+Stack+Developer+%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%7C+AI+Enthusiast+%F0%9F%92%BB" alt="Typing SVG" /></a>
   </p>
 <h3 align="center">Full Stack Developer 🚀 | AI Enthusiast 💻</h3>
 
