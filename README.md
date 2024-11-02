@@ -1,7 +1,11 @@
-<h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="45px">, I'm Aslinur Topcu!</h1>
-<h3 align="center">Full Stack Developer 🚀 | AI Enthusiast 💻</h3>
+<h1 align="center" style="animation: fadeIn 2s;">
+  Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="45px">, I'm Aslinur Topcu!
+</h1>
+<h3 align="center" style="animation: slideIn 2s;">
+  Full Stack Developer 🚀 | AI Enthusiast 💻
+</h3>
 
-<p align="center">
+<p align="center" style="animation: zoomIn 2s;">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGQzNGdzYmp5NmkyMGtyOWpwdWh0Y21pNm9hMWNhOWxsMnc4bGdteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aNqEFrYVnsS52/giphy.webp" width="700" height="350"/>
 </p>
 
@@ -11,10 +15,10 @@
 
 ---
 
-<h3 align="center">Connect with Me:</h3>
+<h3 align="center" style="animation: fadeIn 2s;">Connect with Me:</h3>
 <p align="center">
   <a href="https://linkedin.com/in/https://www.linkedin.com/in/asl%c4%b1nur-topcu-871023253/" target="_blank">
-    <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="50" width="50"/>
+    <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="50" width="50" style="animation: bounce 2s infinite;">
   </a>
 </p>
 
@@ -38,18 +42,18 @@
 
 ---
 
-<h3 align="center">GitHub Stats:</h3>
+<h3 align="center" style="animation: fadeIn 2s;">GitHub Stats:</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=asli-nur-t&show_icons=true&theme=tokyonight&title_color=ae00ff&locale=en" alt="GitHub Stats" width="500"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=asli-nur-t&show_icons=true&theme=tokyonight&title_color=ae00ff&locale=en" alt="GitHub Stats" width="500" style="animation: slideIn 2s;">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=asli-nur-t&theme=dark" alt="GitHub Streak" width="500"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=asli-nur-t&theme=dark" alt="GitHub Streak" width="500" style="animation: slideIn 2s;">
 </p>
 
 ---
 
-<h3 align="center">✨ Fun Facts:</h3>
+<h3 align="center" style="animation: fadeIn 2s;">✨ Fun Facts:</h3>
 <ul>
   <li>📚 Constantly learning about the latest in AI and machine learning.</li>
   <li>🎨 I enjoy designing sleek and user-friendly interfaces for my apps.</li>
@@ -59,7 +63,30 @@
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/jTNG3RF6EwbkpD4LZx/giphy.gif" width="80">
-  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="80">
-  <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" width="80">
+  <img src="https://media.giphy.com/media/jTNG3RF6EwbkpD4LZx/giphy.gif" width="80" style="animation: bounce 2s infinite;">
+  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="80" style="animation: bounce 2s infinite;">
+  <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" width="80" style="animation: bounce 2s infinite;">
 </p>
+
+<style>
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideIn {
+  from { transform: translateY(-20px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes zoomIn {
+  from { transform: scale(0.5); opacity: 0; }
+  to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-30px); }
+  60% { transform: translateY(-15px); }
+}
+</style>
