@@ -20,75 +20,22 @@
 
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tech Stack</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #1a1a1a;
-            color: #f0f0f0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            margin: 0;
-        }
-        .tech-stack {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-            max-width: 800px;
-        }
-        .tech-item {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            padding: 8px 16px;
-            font-weight: bold;
-            color: white;
-            border-radius: 5px;
-            text-transform: uppercase;
-        }
-        .python { background-color: #306998; }
-        .flutter { background-color: #02569B; }
-        .java { background-color: #f89820; }
-        .django { background-color: #092E20; }
-        .javascript { background-color: #f7df1e; color: #000; }
-        .react { background-color: #61dafb; color: #000; }
-        .cpp { background-color: #00599C; }
-        .firebase { background-color: #FFCA28; color: #000; }
-        .dart { background-color: #0175C2; }
-        .sql { background-color: #00618A; }
-        .swift { background-color: #F05138; }
-        .nodejs { background-color: #68A063; }
-        .express { background-color: #303030; color: #f0f0f0; }
-    </style>
-</head>
-<body>
+# Tech Stack
 
-<h1>Tech Stack</h1>
-<div class="tech-stack">
-    <div class="tech-item python">Python</div>
-    <div class="tech-item flutter">Flutter</div>
-    <div class="tech-item java">Java</div>
-    <div class="tech-item django">Django</div>
-    <div class="tech-item javascript">JavaScript</div>
-    <div class="tech-item react">React</div>
-    <div class="tech-item cpp">C++</div>
-    <div class="tech-item firebase">Firebase</div>
-    <div class="tech-item dart">Dart</div>
-    <div class="tech-item sql">SQL</div>
-    <div class="tech-item swift">Swift</div>
-    <div class="tech-item nodejs">Node.js</div>
-    <div class="tech-item express">Express.js</div>
-</div>
+![Python](https://img.shields.io/badge/Python-306998?style=for-the-badge&logo=python&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white)
+![Java](https://img.shields.io/badge/Java-f89820?style=for-the-badge&logo=java&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-f7df1e?style=for-the-badge&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-61dafb?style=for-the-badge&logo=react&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Dart](https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-00618A?style=for-the-badge&logo=postgresql&logoColor=white)
+![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-68A063?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-303030?style=for-the-badge&logo=express&logoColor=white)
 
-</body>
-</html>
 
 ---
 
