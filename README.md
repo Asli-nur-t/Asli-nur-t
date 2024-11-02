@@ -7,8 +7,6 @@
 <h3 align="center">Full Stack Developer 🚀 | AI Enthusiast 💻</h3>
 
 
-![Full Stack Developer](https://img.shields.io/endpoint?url=https%3A%2F%2Fdynamic-badge-formatter-ynrxn78r2oye.runkit.sh%2F%2Fstatus%3Furl%3Dhttps%3A%2F%2Fgithub.com%2F&query=Aslınur+Topcu&formatter=flat&style=flat-square)
-
 
 <p align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGQzNGdzYmp5NmkyMGtyOWpwdWh0Y21pNm9hMWNhOWxsMnc4bGdteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aNqEFrYVnsS52/giphy.webp" width="700" height="350"/>
@@ -55,8 +53,11 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=asli-nur-t&theme=dark" alt="GitHub Streak" width="500"/>
 </p>
+<p align="center">
+<a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Asli-nur-t&theme=modern-lilac2&border_radius=10&card_width=505" alt="GitHub Streak" /></a>
+</p>
 
----
+  ---
 
 <h3 align="center">✨ Fun Facts:</h3>
 <ul>
