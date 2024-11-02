@@ -20,61 +20,75 @@
 
 ---
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left">
-    <a href="https://www.python.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="50" height="50"/>
-        <br>Python
-    </a>
-    <a href="https://flutter.dev" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="Flutter" width="50" height="50"/>
-        <br>Flutter
-    </a>
-    <a href="https://www.java.com" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="50" height="50"/>
-        <br>Java
-    </a>
-    <a href="https://www.djangoproject.com/" target="_blank" rel="noreferrer">
-        <img src="https://cdn.worldvectorlogo.com/logos/django.svg" alt="Django" width="50" height="50"/>
-        <br>Django
-    </a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="50" height="50"/>
-        <br>JavaScript
-    </a>
-    <a href="https://reactjs.org/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="React" width="50" height="50"/>
-        <br>React
-    </a>
-    <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="C++" width="50" height="50"/>
-        <br>C++
-    </a>
-    <a href="https://firebase.google.com/" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg" alt="Firebase" width="50" height="50"/>
-        <br>Firebase
-    </a>
-    <a href="https://dart.dev" target="_blank" rel="noreferrer">
-        <img src="https://www.vectorlogo.zone/logos/dartlang/dartlang-icon.svg" alt="Dart" width="50" height="50"/>
-        <br>Dart
-    </a>
-    <a href="https://www.mysql.com/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="SQL" width="50" height="50"/>
-        <br>SQL
-    </a>
-    <a href="https://developer.apple.com/swift/" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/swift/swift-original.svg" alt="Swift" width="50" height="50"/>
-        <br>Swift
-    </a>
-    <a href="https://nodejs.org" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="Node.js" width="50" height="50"/>
-        <br>Node.js
-    </a>
-    <a href="https://expressjs.com" target="_blank" rel="noreferrer">
-        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" alt="Express.js" width="50" height="50"/>
-        <br>Express.js
-    </a>
-</p>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tech Stack</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .tech-stack {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            max-width: 800px;
+        }
+        .tech-item {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 8px 16px;
+            font-weight: bold;
+            color: white;
+            border-radius: 5px;
+            text-transform: uppercase;
+        }
+        .python { background-color: #306998; }
+        .flutter { background-color: #02569B; }
+        .java { background-color: #f89820; }
+        .django { background-color: #092E20; }
+        .javascript { background-color: #f7df1e; color: #000; }
+        .react { background-color: #61dafb; color: #000; }
+        .cpp { background-color: #00599C; }
+        .firebase { background-color: #FFCA28; color: #000; }
+        .dart { background-color: #0175C2; }
+        .sql { background-color: #00618A; }
+        .swift { background-color: #F05138; }
+        .nodejs { background-color: #68A063; }
+        .express { background-color: #303030; color: #f0f0f0; }
+    </style>
+</head>
+<body>
+
+<h1>Tech Stack</h1>
+<div class="tech-stack">
+    <div class="tech-item python">Python</div>
+    <div class="tech-item flutter">Flutter</div>
+    <div class="tech-item java">Java</div>
+    <div class="tech-item django">Django</div>
+    <div class="tech-item javascript">JavaScript</div>
+    <div class="tech-item react">React</div>
+    <div class="tech-item cpp">C++</div>
+    <div class="tech-item firebase">Firebase</div>
+    <div class="tech-item dart">Dart</div>
+    <div class="tech-item sql">SQL</div>
+    <div class="tech-item swift">Swift</div>
+    <div class="tech-item nodejs">Node.js</div>
+    <div class="tech-item express">Express.js</div>
+</div>
+
+</body>
+</html>
 
 ---
 
