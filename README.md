@@ -2,7 +2,7 @@
 <h3 align="center">Full Stack Developer 🚀 | AI Enthusiast 💻</h3>
 
 <p align="center">
-  <img src="[https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExc3J2NDJxZjQ4M24zMGl3c3puOG4ydGtpamdocXZ6dmhrc2ZyNWJ1aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/o0vwzuFwCGAFO/giphy.webp)" width="700" height="350"/>
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="700" height="350"/>
 </p>
 
 - 👩🏻‍💻 I'm always open to collaborations or discussions, so feel free to reach out: **aaslinur.topcu@gmail.com**
