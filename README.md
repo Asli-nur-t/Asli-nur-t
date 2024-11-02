@@ -1,8 +1,6 @@
 <h1 align="center">Hi <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="45px">, I'm Aslinur Topcu!</h1>
 <h3 align="center">Full Stack Developer 🚀 | AI Enthusiast 💻</h3>
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=C648F7&center=true&vCenter=true&multiline=true&width=435&lines=Hi+%F0%9F%91%8B%F0%9F%8F%BB%2C+I'm+Asl%C4%B1nur+Topcu!)](https://git.io/typing-svg)
-
-
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&pause=1000&color=C648F7&center=true&vCenter=true&multiline=true&width=435&lines=Hi+%F0%9F%91%8B%F0%9F%8F%BB%2C+I'm+Asl%C4%B1nur+Topcu!" alt="Typing SVG" /></a>
 
 
 
