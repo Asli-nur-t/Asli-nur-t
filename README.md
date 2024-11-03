@@ -58,7 +58,7 @@
 
 
   ---
- <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" alt="Coding" width=200 height=140 align="right">
+ <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmk1cTl4d3VpYm9wazN6cjJ1dHY2bW5nMHk0YmsxcjRqd2EzYzhidCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.webp" alt="Coding" width=200 height=140 align="right">
 
 <h3 align="left">✨ Fun Facts:</h3>
 
@@ -70,8 +70,3 @@
 
 ---
 
-<p align="center">
-  <img src="https://media.giphy.com/media/jTNG3RF6EwbkpD4LZx/giphy.gif" width="200">
-  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="200">
-  <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" width="80">
-</p>
