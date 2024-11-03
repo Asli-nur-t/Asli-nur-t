@@ -50,9 +50,7 @@
   <img src="https://github-readme-stats.vercel.app/api?username=asli-nur-t&show_icons=true&theme=tokyonight&title_color=ae00ff&locale=en" alt="GitHub Stats" width="500"/>
 </p>
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=asli-nur-t&theme=dark" alt="GitHub Streak" width="500"/>
-</p>
+
 <p align="center">
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Asli-nur-t&theme=modern-lilac2&border_radius=10&card_width=505" alt="GitHub Streak" /></a>
 </p>
