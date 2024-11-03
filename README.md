@@ -10,7 +10,7 @@
 </p>
 
 <p align="center">
-  <img src="https://giphy.com/gifs/Pluralsight-computer-technology-coding-L1R1tvI9svkIWwpVYr" width="700" height="350"/>
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExOHR6ZmhicmJ2ODBjbGI0emtmeXRnMGtkY2V6enMxeXN1aDZ1YTJqZCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/L1R1tvI9svkIWwpVYr/giphy.webp" width="700" height="350"/>
 </p>
 
 - 👩🏻‍💻 I'm always open to collaborations or discussions, so feel free to reach out: **aaslinur.topcu@gmail.com**
