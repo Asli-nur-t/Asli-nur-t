@@ -60,6 +60,7 @@
   ---
 
 <h3 align="center">✨ Fun Facts:</h3>
+ <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" width="80">
 <ul>
   <li>📚 Constantly learning about the latest in AI and machine learning.</li>
   <li>🎨 I enjoy designing sleek and user-friendly interfaces for my apps.</li>
