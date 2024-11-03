@@ -6,7 +6,9 @@
   </p>
 <h3 align="center">Full Stack Developer 🚀 | AI Enthusiast 💻</h3>
 
-
+<p align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=&pause=1000&color=F7A6F0&center=true&vCenter=true&random=true&width=450&lines=%F0%9F%8C%B8Welcome+To+My+Profile%F0%9F%8C%B8" alt="Typing SVG" /></a>
+</p>
 
 <p align="center">
   <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGQzNGdzYmp5NmkyMGtyOWpwdWh0Y21pNm9hMWNhOWxsMnc4bGdteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aNqEFrYVnsS52/giphy.webp" width="700" height="350"/>
@@ -67,7 +69,7 @@
 ---
 
 <p align="center">
-  <img src="https://media.giphy.com/media/jTNG3RF6EwbkpD4LZx/giphy.gif" width="80">
-  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="80">
+  <img src="https://media.giphy.com/media/jTNG3RF6EwbkpD4LZx/giphy.gif" width="200">
+  <img src="https://media.giphy.com/media/836HiJc7pgzy8iNXCn/giphy.gif" width="200">
   <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" width="80">
 </p>
