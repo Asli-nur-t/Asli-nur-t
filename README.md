@@ -57,10 +57,12 @@
 <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Asli-nur-t&theme=modern-lilac2&border_radius=10&card_width=505" alt="GitHub Streak" /></a>
 </p>
 
-  ---
 
-<h3 align="center">✨ Fun Facts:</h3>
- <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" width="80">
+  ---
+ <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" alt="Coding" width=200 height=200 align="right">
+
+<h3 align="left">✨ Fun Facts:</h3>
+
 <ul>
   <li>📚 Constantly learning about the latest in AI and machine learning.</li>
   <li>🎨 I enjoy designing sleek and user-friendly interfaces for my apps.</li>
