@@ -58,7 +58,7 @@
 
 
   ---
- <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" alt="Coding" width=200 height=150 align="right">
+ <img src="https://media.giphy.com/media/mCRJDo24UvJMA/giphy.gif" alt="Coding" width=200 height=140 align="right">
 
 <h3 align="left">✨ Fun Facts:</h3>
 
