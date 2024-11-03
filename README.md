@@ -4,14 +4,13 @@
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=1000&color=F7F7F7&center=true&vCenter=true&width=550&height=64&lines=+Full+Stack+Developer+%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%7C+AI+Enthusiast+%F0%9F%92%BB" alt="Typing SVG" /></a>
   </p>
-<h3 align="center">Full Stack Developer 🚀 | AI Enthusiast 💻</h3>
 
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=&pause=1000&color=F7A6F0&center=true&vCenter=true&random=true&width=450&lines=%F0%9F%8C%B8Welcome+To+My+Profile%F0%9F%8C%B8" alt="Typing SVG" /></a>
 </p>
 
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExeGQzNGdzYmp5NmkyMGtyOWpwdWh0Y21pNm9hMWNhOWxsMnc4bGdteCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aNqEFrYVnsS52/giphy.webp" width="700" height="350"/>
+  <img src="https://giphy.com/gifs/Pluralsight-computer-technology-coding-L1R1tvI9svkIWwpVYr" width="700" height="350"/>
 </p>
 
 - 👩🏻‍💻 I'm always open to collaborations or discussions, so feel free to reach out: **aaslinur.topcu@gmail.com**
