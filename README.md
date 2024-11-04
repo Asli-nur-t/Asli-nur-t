@@ -3,7 +3,7 @@
 </h1>
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=21&pause=1000&color=F7F7F7&center=true&vCenter=true&width=550&height=64&lines=+Full+Stack+Developer+%F0%9F%91%A9%F0%9F%8F%BB%E2%80%8D%F0%9F%92%BB%7C+AI+Enthusiast+%F0%9F%92%BB" alt="Typing SVG" /></a>
-</p>
+  </p>
 
 <p align="center">
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=&pause=1000&color=F7A6F0&center=true&vCenter=true&random=true&width=450&lines=%F0%9F%8C%B8Welcome+To+My+Profile%F0%9F%8C%B8" alt="Typing SVG" /></a>
@@ -46,20 +46,23 @@
 
 ---
 
+
 <h3 align="center">GitHub Stats:</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=asli-nur-t&show_icons=true&theme=tokyonight&title_color=ae00ff&locale=en" alt="GitHub Stats" width="500"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Asli-nur-t&show_icons=true&theme=tokyonight&title_color=ae00ff&locale=en" alt="GitHub Stats" width="500"/>
 </p>
 
 <p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=asli-nur-t&theme=modern-lilac2&border_radius=10&card_width=505" alt="GitHub Streak" />
-  </a>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asli-nur-t&theme=synthwave&show_icons=true&hide_border=true&layout=compact" alt="Top Languages" width="500"/>
 </p>
 
----
+<p align="center">
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Asli-nur-t&theme=modern-lilac2&border_radius=10&card_width=505" alt="GitHub Streak" /></a>
+</p>
 
-<img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmk1cTl4d3VpYm9wazN6cjJ1dHY2bW5nMHk0YmsxcjRqd2EzYzhidCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.webp" alt="Coding" width=200 height=140 align="right">
+
+  ---
+ <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNmk1cTl4d3VpYm9wazN6cjJ1dHY2bW5nMHk0YmsxcjRqd2EzYzhidCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/LHZyixOnHwDDy/giphy.webp" alt="Coding" width=200 height=140 align="right">
 
 <h3 align="left">✨ Fun Facts:</h3>
 
