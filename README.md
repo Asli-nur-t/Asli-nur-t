@@ -53,7 +53,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asli-nur-t&theme=synthwave&show_icons=true&hide_border=true&layout=compact" alt="Top Languages" width="500"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asli-nur-t&theme=outrun&show_icons=true&hide_border=true&layout=compact" alt="Top Languages" width="500"/>
 </p>
 
 <p align="center">
