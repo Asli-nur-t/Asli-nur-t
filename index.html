@@ -23,6 +23,26 @@
             50% { background-position: 100% 100%; }
         }
 
+        .language-selector {
+            text-align: right;
+            margin: 1rem;
+        }
+
+        .language-selector button {
+            margin: 0 5px;
+            padding: 0.5rem 1rem;
+            border: none;
+            background-color: #ff78c4;
+            color: white;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background 0.3s;
+        }
+
+        .language-selector button:hover {
+            background-color: #ff569c;
+        }
+
         header {
             display: flex;
             flex-direction: column;
@@ -101,117 +121,114 @@
         footer p {
             font-size: 0.9rem;
         }
-        .header-animation img {
-        border-radius: 20px; 
-    }
+
         .project-grid {
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-}
+            display: grid;
+            gap: 1.5rem;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        }
 
-.project-card {
-    padding: 1.5rem;
-    background: #ffffff;
-    border-radius: 12px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s, box-shadow 0.3s;
-    position: relative;
-    overflow: hidden;
-}
+        .project-card {
+            padding: 1.5rem;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            position: relative;
+            overflow: hidden;
+        }
 
-.project-card:hover {
-    transform: translateY(-8px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
-}
+        .project-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+        }
 
-.project-card h3 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 0.5rem;
-}
+        .project-card h3 {
+            font-size: 1.5rem;
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
 
-.project-card p {
-    color: #555;
-    margin-bottom: 1rem;
-}
+        .project-card p {
+            color: #555;
+            margin-bottom: 1rem;
+        }
 
-.tech-stack {
-    display: inline-block;
-    padding: 0.3rem 0.8rem;
-    background-color: #ff78c4;
-    color: white;
-    border-radius: 20px;
-    font-size: 0.9rem;
-    position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-}
+        .tech-stack {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            background-color: #ff78c4;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+        }
 
-.project-card:hover .tech-stack {
-    background-color: #ff569c;
-}
-
-        
+        .project-card:hover .tech-stack {
+            background-color: #ff569c;
+        }
     </style>
 </head>
 <body>
+    <div class="language-selector">
+        <button onclick="setLanguage('tr')">Türkçe</button>
+        <button onclick="setLanguage('en')">English</button>
+    </div>
+
     <header>
         <div class="header-content">
             <h1>Aslınur Topcu</h1>
-            <p>Computer Engineering Student | Software Developer</p>
-            <p class="intro">Merhaba, ben Aslınur. Bilgisayar mühendisliği öğrencisiyim ve yazılım geliştirmeye olan tutkum ile projeler üretiyorum.</p>
-            <a href="#projects" class="cta">Projelerimi Keşfet</a>
-        </div>
-        <div class="header-animation">
-            <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcWFjajk0Z2Z4M3NmNm83ZHU1NXNic282cTVkNHQxYzR3cTBqdHVmbyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/mCRJDo24UvJMA/giphy.webp" alt="animation">
+            <p data-key="header-subtitle">Bilgisayar Mühendisliği Öğrencisi | Yazılım Geliştirici</p>
+            <p data-key="intro" class="intro">Merhaba, ben Aslınur. Bilgisayar mühendisliği öğrencisiyim ve yazılım geliştirmeye olan tutkum ile projeler üretiyorum.</p>
+            <a href="#projects" data-key="cta" class="cta">Projelerimi Keşfet</a>
         </div>
     </header>
 
     <section id="about">
-        <h2>Hakkımda</h2>
-        <p>Kocaeli Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yazılım geliştirme alanında deneyim kazanmak için çeşitli projeler üzerinde çalışıyorum.</p>
+        <h2 data-key="about-title">Hakkımda</h2>
+        <p data-key="about-description">Kocaeli Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yazılım geliştirme alanında deneyim kazanmak için çeşitli projeler üzerinde çalışıyorum.</p>
     </section>
 
     <section id="skills">
-        <h2>Beceriler</h2>
+        <h2 data-key="skills-title">Beceriler</h2>
         <ul>
-            <li>Python, Java, C++</li>
-            <li>Dart, Flutter</li>
-            <li>React, Node.js, SQL</li>
-            <li>Django, Firebase</li>
+            <li data-key="skill-1">Python, Java, C++</li>
+            <li data-key="skill-2">Dart, Flutter</li>
+            <li data-key="skill-3">React, Node.js, SQL</li>
+            <li data-key="skill-4">Django, Firebase</li>
         </ul>
     </section>
 
-   <section id="projects">
-    <h2>Projeler</h2>
-    <div class="project-grid">
-        <div class="project-card">
-            <h3>Metaland Game Project</h3>
-            <p>Java kullanarak sanal emlak ticareti platformunun veritabanı sistemini tasarladım ve ticari işlemleri içeren bir oyun geliştirdim.</p>
-            <span class="tech-stack">Java, SQL</span>
+    <section id="projects">
+        <h2 data-key="projects-title">Projeler</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3 data-key="project-1-title">Metaland Game Project</h3>
+                <p data-key="project-1-description">Java kullanarak sanal emlak ticareti platformunun veritabanı sistemini tasarladım ve ticari işlemleri içeren bir oyun geliştirdim.</p>
+                <span class="tech-stack">Java, SQL</span>
+            </div>
+            <div class="project-card">
+                <h3 data-key="project-2-title">Space Ship Game Project</h3>
+                <p data-key="project-2-description">C++ ve mikrodenetleyiciler ile çeşitli sensörler kullanan bir oyun makinesi geliştirdim.</p>
+                <span class="tech-stack">C++, Mikrodenetleyiciler</span>
+            </div>
+            <div class="project-card">
+                <h3 data-key="project-3-title">Fitness Sağlıklı Yaşam Web Sitesi</h3>
+                <p data-key="project-3-description">JavaScript, Node.js ve React kullanarak fitness ve sağlıklı yaşam koçluğu sunan bir site geliştirdim.</p>
+                <span class="tech-stack">JavaScript, Node.js, React</span>
+            </div>
+            <div class="project-card">
+                <h3 data-key="project-4-title">Yapay Zeka Projesi</h3>
+                <p data-key="project-4-description">Django kullanarak makale öneri sistemi geliştirdim. FastText ve SciBERT gibi modeller ile makale benzerliği üzerine çalıştım.</p>
+                <span class="tech-stack">Django, FastText, SciBERT, MongoDB</span>
+            </div>
         </div>
-        <div class="project-card">
-            <h3>Space Ship Game Project</h3>
-            <p>C++ ve mikrodenetleyiciler ile çeşitli sensörler kullanan bir oyun makinesi geliştirdim.</p>
-            <span class="tech-stack">C++, Mikrodenetleyiciler</span>
-        </div>
-        <div class="project-card">
-            <h3>Fitness Sağlıklı Yaşam Web Sitesi</h3>
-            <p>JavaScript, Node.js ve React kullanarak fitness ve sağlıklı yaşam koçluğu sunan bir site geliştirdim.</p>
-            <span class="tech-stack">JavaScript, Node.js, React</span>
-        </div>
-        <div class="project-card">
-            <h3>Yapay Zeka Projesi</h3>
-            <p>Django kullanarak makale öneri sistemi geliştirdim. FastText ve SciBERT gibi modeller ile makale benzerliği üzerine çalıştım.</p>
-            <span class="tech-stack">Django, FastText, SciBERT, MongoDB</span>
-        </div>
-    </div>
-</section>
-
+    </section>
 
     <section id="contact">
-        <h2>İletişim</h2>
+        <h2 data-key="contact-title">İletişim</h2>
         <p>Email: <a href="mailto:asl.nurtopcu13@gmail.com">asl.nurtopcu13@gmail.com</a></p>
         <p>LinkedIn: <a href="https://www.linkedin.com/in/asl%C4%B1nur-topcu-871023253/" target="_blank">linkedin.com/in/your-profile</a></p>
     </section>
@@ -219,5 +236,61 @@
     <footer>
         <p>&copy; 2024 Aslınur Topcu</p>
     </footer>
+
+    <script>
+        const translations = {
+            en: {
+                "header-subtitle": "Computer Engineering Student | Software Developer",
+                "intro": "Hello, I'm Aslınur. I am a computer engineering student, passionate about software development and creating projects.",
+                "cta": "Explore My Projects",
+                "about-title": "About Me",
+                "about-description": "I am a senior computer engineering student at Kocaeli University, working on various projects to gain experience in software development.",
+                "skills-title": "Skills",
+                "skill-1": "Python, Java, C++",
+                "skill-2": "Dart, Flutter",
+                "skill-3": "React, Node.js, SQL",
+                "skill-4": "Django, Firebase",
+                "projects-title": "Projects",
+                "project-1-title": "Metaland Game Project",
+                "project-1-description": "Designed a virtual property trading platform's database and developed a game handling commercial operations.",
+                "project-2-title": "Space Ship Game Project",
+                "project-2-description": "Developed a game machine using C++ and microcontrollers with various sensors.",
+                "project-3-title": "Fitness Healthy Living Website",
+                "project-3-description": "Created a site offering fitness and healthy lifestyle coaching using JavaScript, Node.js, and React.",
+                "project-4-title": "Artificial Intelligence Project",
+                "project-4-description": "Developed an article recommendation system using pre-trained language models such as FastText and SciBERT.",
+                "contact-title": "Contact"
+            },
+            tr: {
+                "header-subtitle": "Bilgisayar Mühendisliği Öğrencisi | Yazılım Geliştirici",
+                "intro": "Merhaba, ben Aslınur. Bilgisayar mühendisliği öğrencisiyim ve yazılım geliştirmeye olan tutkum ile projeler üretiyorum.",
+                "cta": "Projelerimi Keşfet",
+                "about-title": "Hakkımda",
+                "about-description": "Kocaeli Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yazılım geliştirme alanında deneyim kazanmak için çeşitli projeler üzerinde çalışıyorum.",
+                "skills-title": "Beceriler",
+                "skill-1": "Python, Java, C++",
+                "skill-2": "Dart, Flutter",
+                "skill-3": "React, Node.js, SQL",
+                "skill-4": "Django, Firebase",
+                "projects-title": "Projeler",
+                "project-1-title": "Metaland Game Project",
+                "project-1-description": "Java kullanarak sanal emlak ticareti platformunun veritabanı sistemini tasarladım ve ticari işlemleri içeren bir oyun geliştirdim.",
+                "project-2-title": "Space Ship Game Project",
+                "project-2-description": "C++ ve mikrodenetleyiciler ile çeşitli sensörler kullanan bir oyun makinesi geliştirdim.",
+                "project-3-title": "Fitness Sağlıklı Yaşam Web Sitesi",
+                "project-3-description": "JavaScript, Node.js ve React kullanarak fitness ve sağlıklı yaşam koçluğu sunan bir site geliştirdim.",
+                "project-4-title": "Yapay Zeka Projesi",
+                "project-4-description": "Django kullanarak makale öneri sistemi geliştirdim. FastText ve SciBERT gibi modeller ile makale benzerliği üzerine çalıştım.",
+                "contact-title": "İletişim"
+            }
+        };
+
+        function setLanguage(lang) {
+            document.querySelectorAll("[data-key]").forEach(element => {
+                const key = element.getAttribute("data-key");
+                element.textContent = translations[lang][key];
+            });
+        }
+    </script>
 </body>
 </html>
