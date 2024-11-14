@@ -17,6 +17,8 @@
 
 - ⚡️ Interests: **Artificial Intelligence, Data Science, Mobile and Web App Development**
 
+-💜 Personal Website: **aslinurtopcu.com**
+
 ---
 
 <h3 align="center">Connect with Me:</h3>
