@@ -16,6 +16,7 @@
             font-family: Arial, sans-serif;
             color: #333;
             background: linear-gradient(120deg, #f4a9ff, #9ec3ff, #b9f2ff);
+            background-blend-mode: darken;
             animation: gradientBG 10s ease infinite;
         }
 
@@ -51,7 +52,9 @@ header {
     text-align: center;
     color: white;
     padding: 3rem;
-    background-image: url('https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/voyager-otaam-tonion-lush-space.jpg');
+    background-image: url('https://raw.githubusercontent.com/DenverCoder1/minimalistic-wallpaper-collection/main/images/alena-aenami-sky-mirror.jpg');
+    background-color: rgba(0, 0, 0, 0.5); /* Karanlık bir renk tonu eklemek için */
+    background-blend-mode: darken;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -83,6 +86,13 @@ header {
             background-color: #ff569c;
         }
 
+        header .header-subtitle {
+            text-align: center;
+            font-size: 40;
+            margin-bottom: 1rem;
+            
+            text-decoration: none;color: #ffffff;
+        }
         section {
             padding: 2rem;
             margin: 2rem auto;
@@ -170,6 +180,18 @@ header {
             bottom: 1rem;
             right: 1rem;
         }
+        .tech-2-stack {
+            display: inline-block;
+            padding: 0.3rem 0.8rem;
+            background-color: #ff78c4;
+            color: white;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            position: absolute;
+            bottom: 1rem;
+            right: 1rem;
+            
+        }
 
         .project-card:hover .tech-stack {
             background-color: #ff569c;
@@ -184,20 +206,21 @@ header {
 
     <header>
         <div class="header-content">
-            <h1>Aslınur Topcu</h1>
-            <p data-key="header-subtitle">Bilgisayar Mühendisliği Öğrencisi | Yazılım Geliştirici</p>
-            <p data-key="intro" class="intro">Merhaba, ben Aslınur. Bilgisayar mühendisliği öğrencisiyim ve yazılım geliştirmeye olan tutkum ile projeler üretiyorum.</p>
+            <h1>Aslınur Topcu🌸</h1>
+            <p data-key="header-subtitle"> Full Stack Geliştirici 👩🏻‍💻| AI Meraklısı 🤖</p>
+            <p data-key="intro" class="intro">Merhaba! Ben Aslınur, Kocaeli Üniversitesi’nde Bilgisayar Mühendisliği son sınıf öğrencisiyim ve yazılım geliştirme tutkunu bir Full Stack geliştiriciyim. Yapay zeka ve makine öğrenimine özel bir ilgim var.</p>
+
             <a href="#projects" data-key="cta" class="cta">Projelerimi Keşfet</a>
         </div>
     </header>
 
     <section id="about">
         <h2 data-key="about-title">Hakkımda</h2>
-        <p data-key="about-description">Kocaeli Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yazılım geliştirme alanında deneyim kazanmak için çeşitli projeler üzerinde çalışıyorum.</p>
+        <p data-key="about-description">Kocaeli Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim ve yazılım geliştirme dünyasında geniş bir yelpazede tecrübe kazanıyorum. Full Stack bir geliştirici olarak, ön yüz ve arka yüz teknolojilerinde yetkinliğimi geliştiriyor, kullanıcı deneyimini ön planda tutan çözümler üretmeye özen gösteriyorum. Ayrıca, yapay zeka ve makine öğrenimi üzerine yoğun bir ilgim var ve bu alanlardaki güncel gelişmeleri yakından takip ediyorum.</p>
     </section>
 
     <section id="skills">
-        <h2 data-key="skills-title">Beceriler</h2>
+        <h2 data-key="skills-title">Beceriler🔮</h2>
         <ul>
             <li data-key="skill-1">Python, Java, C++</li>
             <li data-key="skill-2">Dart, Flutter</li>
@@ -207,7 +230,7 @@ header {
     </section>
 
     <section id="projects">
-        <h2 data-key="projects-title">Projeler</h2>
+        <h2 data-key="projects-title">Projeler🎀</h2>
         <div class="project-grid">
             <div class="project-card">
                 <h3 data-key="project-1-title">Metaland Game Project</h3>
@@ -217,7 +240,7 @@ header {
             <div class="project-card">
                 <h3 data-key="project-2-title">Space Ship Game Project</h3>
                 <p data-key="project-2-description">C++ ve mikrodenetleyiciler ile çeşitli sensörler kullanan bir oyun makinesi geliştirdim.</p>
-                <span class="tech-stack">C++, Mikrodenetleyiciler</span>
+                <span class="tech-2-stack">C++, Mikrodenetleyiciler</span>
             </div>
             <div class="project-card">
                 <h3 data-key="project-3-title">Fitness Sağlıklı Yaşam Web Sitesi</h3>
@@ -225,7 +248,7 @@ header {
                 <span class="tech-stack">JavaScript, Node.js, React</span>
             </div>
             <div class="project-card">
-                <h3 data-key="project-4-title">Yapay Zeka Projesi</h3>
+                <h3 data-key="project-4-title">AI,NLP Akademik Makale Öneri Sistemi</h3>
                 <p data-key="project-4-description">Django kullanarak makale öneri sistemi geliştirdim. FastText ve SciBERT gibi modeller ile makale benzerliği üzerine çalıştım.</p>
                 <span class="tech-stack">Django, FastText, SciBERT, MongoDB</span>
             </div>
@@ -234,9 +257,21 @@ header {
 
     <section id="contact">
         <h2 data-key="contact-title">İletişim</h2>
-        <p>Email: <a href="mailto:asl.nurtopcu13@gmail.com">asl.nurtopcu13@gmail.com</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/asl%C4%B1nur-topcu-871023253/" target="_blank">linkedin.com/in/your-profile</a></p>
+        <p style="text-decoration: none; color: #5f6ed0; text-align: center; font-weight: bold; display: flex; align-items: center; gap: 8px;" >Email: <a href="mailto:asl.nurtopcu13@gmail.com">asl.nurtopcu13@gmail.com</a></p>
+        <p style="text-decoration: none; color: #5f6ed0; text-align: center; font-weight: bold; display: flex; align-items: center; gap: 8px;" >LinkedIn: <a href="https://www.linkedin.com/in/asl%C4%B1nur-topcu-871023253/" target="_blank">LinkedIn'den bana ulaşmak için tıkla.🖇️</a></p>
+        <!-- <p>Github: <a href="https://github.com/Asli-nur-t" target="_blank"></a></p> -->
+
+       
     </section>
+
+    <section id="github" style="display: flex; justify-content: center; align-items: center;">
+        <a href="https://github.com/Asli-nur-t" target="_blank" style="text-decoration: none; color: #5f6ed0; text-align: center; font-weight: bold; display: flex; align-items: center; gap: 8px;">
+            <img src="https://cdn4.iconfinder.com/data/icons/social-media-logos-6/512/71-github-512.png" alt="GitHub" width="35" height="35" style="vertical-align: middle;">
+            GitHub
+        </a>
+    </section>
+    
+    
 
     <footer>
         <p>&copy; 2024 Aslınur Topcu</p>
@@ -245,7 +280,7 @@ header {
     <script>
         const translations = {
             en: {
-                "header-subtitle": "Computer Engineering Student | Software Developer",
+                "header-subtitle": "Full Stack Developer 👩🏻‍💻| AI Enthusiast 🤖",
                 "intro": "Hello, I'm Aslınur. I am a computer engineering student, passionate about software development and creating projects.",
                 "cta": "Explore My Projects",
                 "about-title": "About Me",
@@ -260,14 +295,15 @@ header {
                 "project-1-description": "Designed a virtual property trading platform's database and developed a game handling commercial operations.",
                 "project-2-title": "Space Ship Game Project",
                 "project-2-description": "Developed a game machine using C++ and microcontrollers with various sensors.",
+                "tech-2-stack": "C++, Microcontrollers",
                 "project-3-title": "Fitness Healthy Living Website",
                 "project-3-description": "Created a site offering fitness and healthy lifestyle coaching using JavaScript, Node.js, and React.",
-                "project-4-title": "Artificial Intelligence Project",
+                "project-4-title": "AI,NLP Academic Article Recommendation System Project",
                 "project-4-description": "Developed an article recommendation system using pre-trained language models such as FastText and SciBERT.",
                 "contact-title": "Contact"
             },
             tr: {
-                "header-subtitle": "Bilgisayar Mühendisliği Öğrencisi | Yazılım Geliştirici",
+                "header-subtitle": "Full Stack Geliştirici 👩🏻‍💻| AI Meraklısı 🤖",
                 "intro": "Merhaba, ben Aslınur. Bilgisayar mühendisliği öğrencisiyim ve yazılım geliştirmeye olan tutkum ile projeler üretiyorum.",
                 "cta": "Projelerimi Keşfet",
                 "about-title": "Hakkımda",
@@ -282,9 +318,10 @@ header {
                 "project-1-description": "Java kullanarak sanal emlak ticareti platformunun veritabanı sistemini tasarladım ve ticari işlemleri içeren bir oyun geliştirdim.",
                 "project-2-title": "Space Ship Game Project",
                 "project-2-description": "C++ ve mikrodenetleyiciler ile çeşitli sensörler kullanan bir oyun makinesi geliştirdim.",
+                "tech-2-stack": "C++, Mikrodenetleyiciler",
                 "project-3-title": "Fitness Sağlıklı Yaşam Web Sitesi",
                 "project-3-description": "JavaScript, Node.js ve React kullanarak fitness ve sağlıklı yaşam koçluğu sunan bir site geliştirdim.",
-                "project-4-title": "Yapay Zeka Projesi",
+                "project-4-title": "AI,NLP Akademik Makale Öneri Sistemi",
                 "project-4-description": "Django kullanarak makale öneri sistemi geliştirdim. FastText ve SciBERT gibi modeller ile makale benzerliği üzerine çalıştım.",
                 "contact-title": "İletişim"
             }
