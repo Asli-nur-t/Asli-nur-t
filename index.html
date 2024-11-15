@@ -70,6 +70,7 @@ header {
             font-size: 2.5rem;
         }
 
+
         header .cta {
             display: inline-block;
             margin-top: 1rem;
@@ -207,16 +208,22 @@ header {
     <header>
         <div class="header-content">
             <h1>Aslınur Topcu🌸</h1>
-            <p data-key="header-subtitle"> Full Stack Geliştirici 👩🏻‍💻| AI Meraklısı 🤖</p>
-            <p data-key="intro" class="intro">Merhaba! Ben Aslınur, Kocaeli Üniversitesi’nde Bilgisayar Mühendisliği son sınıf öğrencisiyim ve yazılım geliştirme tutkunu bir Full Stack geliştiriciyim. Yapay zeka ve makine öğrenimine özel bir ilgim var.</p>
+            <p data-key="header-subtitle" style="font-size: larger;padding: 5%;"> Full Stack Geliştirici 👩🏻‍💻| AI Meraklısı 🤖</p>
 
+            <p data-key="intro" class="intro" style="padding: 5%;"> Merhaba! Ben Aslınur, Yazılım geliştirme tutkunu bir Full Stack geliştiriciyim. Yapay zeka ve makine öğrenimi üzerine projeler geliştiriyor, bu teknolojileri günlük yaşama entegre eden yenilikçi uygulamalar tasarlıyorum. Özellikle doğal dil işleme ve öneri sistemleri üzerine çalışarak, kullanıcılar için akıllı ve verimli çözümler üretmeyi hedefliyorum.</p>
             <a href="#projects" data-key="cta" class="cta">Projelerimi Keşfet</a>
         </div>
     </header>
 
     <section id="about">
-        <h2 data-key="about-title">Hakkımda</h2>
-        <p data-key="about-description">Kocaeli Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim ve yazılım geliştirme dünyasında geniş bir yelpazede tecrübe kazanıyorum. Full Stack bir geliştirici olarak, ön yüz ve arka yüz teknolojilerinde yetkinliğimi geliştiriyor, kullanıcı deneyimini ön planda tutan çözümler üretmeye özen gösteriyorum. Ayrıca, yapay zeka ve makine öğrenimi üzerine yoğun bir ilgim var ve bu alanlardaki güncel gelişmeleri yakından takip ediyorum.</p>
+        <h2 data-key="about-title">Hakkımda 💫</h2>
+        <p data-key="about-description">
+            Merhaba! Ben Aslınur Topcu, Kocaeli Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yazılım geliştirme ve teknolojiye olan ilgimle sürekli öğrenmeyi ve kendimi geliştirmeyi hedefliyorum. Çeşitli programlama dilleri ve araçlarla çalışarak yenilikçi projeler üretmeye odaklanıyorum.<br><br>
+            Flutter ve mobil uygulama geliştirme konusundaki deneyimlerimle, kullanıcı dostu arayüzler tasarlamak ve erişilebilirliği ön planda tutarak hayatı kolaylaştıran uygulamalar geliştirmek benim için büyük bir tutku. Bunun yanında Python, Django ve React gibi teknolojilerle web projelerinde de çalıştım.<br><br>
+            Sürekli gelişen yapay zeka ve makine öğrenimi alanlarını yakından takip ediyor, bu teknolojileri projelerime entegre ederek yaratıcı çözümler üretmeyi hedefliyorum. Ekip çalışmasına yatkınlığım ve detaylara verdiğim önemle projelerimi hem teknik hem de estetik olarak en iyi hale getirmeye özen gösteriyorum.<br><br>
+            Kariyerimde, yazılım dünyasında fark yaratacak projeler geliştirerek teknolojiyi daha kapsayıcı ve erişilebilir hale getirmek istiyorum. İlham veren bir yolculuğun parçası olmak benim için hem bir hedef hem de bir motivasyon kaynağı.<br><br>
+            Eğer birlikte çalışabileceğimiz bir fikir ya da proje varsa, benimle iletişime geçmekten çekinmeyin! ⚡️
+          </p>
     </section>
 
     <section id="skills">
@@ -256,9 +263,9 @@ header {
     </section>
 
     <section id="contact">
-        <h2 data-key="contact-title">İletişim</h2>
+        <h2 data-key="contact-title">İletişim 🔗</h2>
         <p style="text-decoration: none; color: #5f6ed0; text-align: center; font-weight: bold; display: flex; align-items: center; gap: 8px;" >Email: <a href="mailto:asl.nurtopcu13@gmail.com">asl.nurtopcu13@gmail.com</a></p>
-        <p style="text-decoration: none; color: #5f6ed0; text-align: center; font-weight: bold; display: flex; align-items: center; gap: 8px;" >LinkedIn: <a href="https://www.linkedin.com/in/asl%C4%B1nur-topcu-871023253/" target="_blank">LinkedIn'den bana ulaşmak için tıkla.🖇️</a></p>
+        <p style="text-decoration: none; color: #5f6ed0; text-align: center; font-weight: bold; display: flex; align-items: center; gap: 8px;" >LinkedIn: <a href="https://www.linkedin.com/in/asl%C4%B1nur-topcu-871023253/" target="_blank">Click here to reach me on LinkedIn.</a></p>
         <!-- <p>Github: <a href="https://github.com/Asli-nur-t" target="_blank"></a></p> -->
 
        
@@ -279,53 +286,53 @@ header {
 
     <script>
         const translations = {
-            en: {
-                "header-subtitle": "Full Stack Developer 👩🏻‍💻| AI Enthusiast 🤖",
-                "intro": "Hello, I'm Aslınur. I am a computer engineering student, passionate about software development and creating projects.",
-                "cta": "Explore My Projects",
-                "about-title": "About Me",
-                "about-description": "I am a senior computer engineering student at Kocaeli University, working on various projects to gain experience in software development.",
-                "skills-title": "Skills",
-                "skill-1": "Python, Java, C++",
-                "skill-2": "Dart, Flutter",
-                "skill-3": "React, Node.js, SQL",
-                "skill-4": "Django, Firebase",
-                "projects-title": "Projects",
-                "project-1-title": "Metaland Game Project",
-                "project-1-description": "Designed a virtual property trading platform's database and developed a game handling commercial operations.",
-                "project-2-title": "Space Ship Game Project",
-                "project-2-description": "Developed a game machine using C++ and microcontrollers with various sensors.",
-                "tech-2-stack": "C++, Microcontrollers",
-                "project-3-title": "Fitness Healthy Living Website",
-                "project-3-description": "Created a site offering fitness and healthy lifestyle coaching using JavaScript, Node.js, and React.",
-                "project-4-title": "AI,NLP Academic Article Recommendation System Project",
-                "project-4-description": "Developed an article recommendation system using pre-trained language models such as FastText and SciBERT.",
-                "contact-title": "Contact"
-            },
-            tr: {
-                "header-subtitle": "Full Stack Geliştirici 👩🏻‍💻| AI Meraklısı 🤖",
-                "intro": "Merhaba, ben Aslınur. Bilgisayar mühendisliği öğrencisiyim ve yazılım geliştirmeye olan tutkum ile projeler üretiyorum.",
-                "cta": "Projelerimi Keşfet",
-                "about-title": "Hakkımda",
-                "about-description": "Kocaeli Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yazılım geliştirme alanında deneyim kazanmak için çeşitli projeler üzerinde çalışıyorum.",
-                "skills-title": "Beceriler",
-                "skill-1": "Python, Java, C++",
-                "skill-2": "Dart, Flutter",
-                "skill-3": "React, Node.js, SQL",
-                "skill-4": "Django, Firebase",
-                "projects-title": "Projeler",
-                "project-1-title": "Metaland Game Project",
-                "project-1-description": "Java kullanarak sanal emlak ticareti platformunun veritabanı sistemini tasarladım ve ticari işlemleri içeren bir oyun geliştirdim.",
-                "project-2-title": "Space Ship Game Project",
-                "project-2-description": "C++ ve mikrodenetleyiciler ile çeşitli sensörler kullanan bir oyun makinesi geliştirdim.",
-                "tech-2-stack": "C++, Mikrodenetleyiciler",
-                "project-3-title": "Fitness Sağlıklı Yaşam Web Sitesi",
-                "project-3-description": "JavaScript, Node.js ve React kullanarak fitness ve sağlıklı yaşam koçluğu sunan bir site geliştirdim.",
-                "project-4-title": "AI,NLP Akademik Makale Öneri Sistemi",
-                "project-4-description": "Django kullanarak makale öneri sistemi geliştirdim. FastText ve SciBERT gibi modeller ile makale benzerliği üzerine çalıştım.",
-                "contact-title": "İletişim"
-            }
-        };
+            "en": {
+        "header-subtitle": "Full Stack Developer 👩🏻‍💻| AI Enthusiast 🤖",
+        "intro": "Hello! I'm Aslınur, a passionate Full Stack developer dedicated to software development. I develop projects in artificial intelligence and machine learning, designing innovative applications that integrate these technologies into everyday life. I particularly focus on natural language processing and recommendation systems, aiming to create smart and efficient solutions for users.",
+        "cta": "Explore My Projects",
+        "about-title": "About Me 💫",
+        "about-description": "Hello! I’m Aslınur Topcu, a senior Computer Engineering student at Kocaeli University. With a deep passion for software development and technology, I am committed to continuous learning and personal growth. My focus is on creating innovative projects by working with various programming languages and tools.\n\nWith my experience in Flutter and mobile application development, I am passionate about designing user-friendly interfaces and building applications that make life easier by prioritizing accessibility. Additionally, I have worked on web projects using technologies such as Python, Django, and React.\n\nI closely follow the rapidly evolving fields of artificial intelligence and machine learning, aiming to integrate these technologies into my projects to create innovative solutions. My teamwork skills and attention to detail enable me to refine my projects, ensuring they are both technically robust and aesthetically pleasing.\n\nIn my career, I aspire to develop projects that make a difference in the software world, striving to make technology more inclusive and accessible. Being part of an inspiring journey is both a goal and a source of motivation for me.\n\nIf you have an idea or project we can collaborate on, feel free to get in touch! ⚡️",
+        "skills-title": "Skills 🔮",
+        "skill-1": "Python, Java, C++",
+        "skill-2": "Dart, Flutter",
+        "skill-3": "React, Node.js, SQL",
+        "skill-4": "Django, Firebase",
+        "projects-title": "Projects 🎀",
+        "project-1-title": "Metaland Game Project",
+        "project-1-description": "Designed a virtual property trading platform's database and developed a game handling commercial operations.",
+        "project-2-title": "Space Ship Game Project",
+        "project-2-description": "Developed a game machine using C++ and microcontrollers with various sensors.",
+        "tech-2-stack": "C++, Microcontrollers",
+        "project-3-title": "Fitness Healthy Living Website",
+        "project-3-description": "Created a site offering fitness and healthy lifestyle coaching using JavaScript, Node.js, and React.",
+        "project-4-title": "AI,NLP Academic Article Recommendation System Project",
+        "project-4-description": "Developed an article recommendation system using pre-trained language models such as FastText and SciBERT.",
+        "contact-title": "Contact 🔗"
+    },
+    "tr": {
+        "header-subtitle": "Full Stack Geliştirici 👩🏻‍💻| AI Meraklısı 🤖",
+        "intro": "Merhaba! Ben Aslınur, yazılım geliştirme tutkunu bir Full Stack geliştiriciyim. Yapay zeka ve makine öğrenimi üzerine projeler geliştiriyor, bu teknolojileri günlük yaşama entegre eden yenilikçi uygulamalar tasarlıyorum. Özellikle doğal dil işleme ve öneri sistemleri üzerine çalışarak, kullanıcılar için akıllı ve verimli çözümler üretmeyi hedefliyorum.",
+        "cta": "Projelerimi Keşfet",
+        "about-title": "Hakkımda 💫",
+        "about-description": "Merhaba! Ben Aslınur Topcu, Kocaeli Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yazılım geliştirme ve teknolojiye olan ilgimle sürekli öğrenmeyi ve kendimi geliştirmeyi hedefliyorum. Çeşitli programlama dilleri ve araçlarla çalışarak yenilikçi projeler üretmeye odaklanıyorum.\n \n \n Flutter ve mobil uygulama geliştirme konusundaki deneyimlerimle, kullanıcı dostu arayüzler tasarlamak ve erişilebilirliği ön planda tutarak hayatı kolaylaştıran uygulamalar geliştirmek benim için büyük bir tutku. Bunun yanında Python, Django ve React gibi teknolojilerle web projelerinde de çalıştım.\n \n \n Sürekli gelişen yapay zeka ve makine öğrenimi alanlarını yakından takip ediyor, bu teknolojileri projelerime entegre ederek yaratıcı çözümler üretmeyi hedefliyorum. Ekip çalışmasına yatkınlığım ve detaylara verdiğim önemle projelerimi hem teknik hem de estetik olarak en iyi hale getirmeye özen gösteriyorum.\n\nKariyerimde, yazılım dünyasında fark yaratacak projeler geliştirerek teknolojiyi daha kapsayıcı ve erişilebilir hale getirmek istiyorum. İlham veren bir yolculuğun parçası olmak benim için hem bir hedef hem de bir motivasyon kaynağı.\n\nEğer birlikte çalışabileceğimiz bir fikir ya da proje varsa, benimle iletişime geçmekten çekinmeyin! ⚡️ ",
+        "skills-title": "Beceriler 🔮",
+        "skill-1": "Python, Java, C++",
+        "skill-2": "Dart, Flutter",
+        "skill-3": "React, Node.js, SQL",
+        "skill-4": "Django, Firebase",
+        "projects-title": "Projeler 🎀",
+        "project-1-title": "Metaland Game Project",
+        "project-1-description": "Java kullanarak sanal emlak ticareti platformunun veritabanı sistemini tasarladım ve ticari işlemleri içeren bir oyun geliştirdim.",
+        "project-2-title": "Space Ship Game Project",
+        "project-2-description": "C++ ve mikrodenetleyiciler ile çeşitli sensörler kullanan bir oyun makinesi geliştirdim.",
+        "tech-2-stack": "C++, Mikrodenetleyiciler",
+        "project-3-title": "Fitness Sağlıklı Yaşam Web Sitesi",
+        "project-3-description": "JavaScript, Node.js ve React kullanarak fitness ve sağlıklı yaşam koçluğu sunan bir site geliştirdim.",
+        "project-4-title": "AI,NLP Akademik Makale Öneri Sistemi",
+        "project-4-description": "Django kullanarak makale öneri sistemi geliştirdim. FastText ve SciBERT gibi modeller ile makale benzerliği üzerine çalıştım.",
+        "contact-title": "İletişim 🔗"
+    }
+}
 
         function setLanguage(lang) {
             document.querySelectorAll("[data-key]").forEach(element => {
