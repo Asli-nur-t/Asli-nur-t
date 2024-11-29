@@ -69,7 +69,7 @@
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=asli-nur-t&theme=date_night" alt="GitHub Stats" width="500"/>
 </p>
 <p align="center">
-  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Asli-nur-t&theme=modern-lilac2&border_radius=10&card_width=505" alt="GitHub Streak" /></a>
+  <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Asli-nur-t&theme=date_night&border_radius=10&card_width=505" alt="GitHub Streak" /></a>
 </p>
 
 
