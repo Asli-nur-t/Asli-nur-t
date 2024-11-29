@@ -75,7 +75,9 @@
 </ul>
 
 ---
-
+<p align="center">
+<img width="1000" src="assets/snake.svg" alt="snake"/>
+</p>
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3VmOXYxbDFvMTVxeDA4am5vZXltaTF1cDhqcmIwaHYyZ3EwNjNtZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HzPtbOKyBoBFsK4hyc/giphy.webp" width="500" height="500"/>
 </p>
