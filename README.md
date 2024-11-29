@@ -51,21 +51,23 @@
 
 <h3 align="center">GitHub Stats:</h3>
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Asli-nur-t&show_icons=true&theme=date_night&title_color=ae00ff&locale=en" alt="GitHub Stats" width="500"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=Asli-nur-t&show_icons=true&theme=date_night&title_color=940039&locale=en" alt="GitHub Stats" width="500"/>
 </p>
 <p align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=asli-nur-t&theme=date_night&utcOffset=8" alt="GitHub Stats" width="500"/>
 </p>
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=asli-nur-t&theme=date_night" alt="GitHub Stats" width="500"/>
-</p>
+
+<!– 
 <p align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=asli-nur-t&theme=date_night" alt="Top Languages" width="500"/>
-</p>
+</p> 
+–>
 <p align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=asli-nur-t&theme=date_night" alt="Top Languages" width="500"/>
 </p>
-
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=asli-nur-t&theme=date_night" alt="GitHub Stats" width="500"/>
+</p>
 <p align="center">
   <a href="https://git.io/streak-stats"><img src="https://streak-stats.demolab.com?user=Asli-nur-t&theme=modern-lilac2&border_radius=10&card_width=505" alt="GitHub Streak" /></a>
 </p>
