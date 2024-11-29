@@ -57,11 +57,7 @@
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=asli-nur-t&theme=date_night&utcOffset=8" alt="GitHub Stats" width="500"/>
 </p>
 
-<!– 
-<p align="center">
-  <img src="http://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=asli-nur-t&theme=date_night" alt="Top Languages" width="500"/>
-</p> 
-–>
+
 <p align="center">
   <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=asli-nur-t&theme=date_night" alt="Top Languages" width="500"/>
 </p>
