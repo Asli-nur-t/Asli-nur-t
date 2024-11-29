@@ -53,9 +53,17 @@
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Asli-nur-t&show_icons=true&theme=tokyonight&title_color=ae00ff&locale=en" alt="GitHub Stats" width="500"/>
 </p>
-
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Asli-nur-t&theme=outrun&show_icons=true&hide_border=true&layout=compact" alt="Top Languages" width="500"/>
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=asli-nur-t&theme=date_night&utcOffset=8" alt="GitHub Stats" width="500"/>
+</p>
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=asli-nur-t&theme=date_night" alt="GitHub Stats" width="500"/>
+</p>
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=asli-nur-t&theme=date_night" alt="Top Languages" width="500"/>
+</p>
+<p align="center">
+  <img src="http://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=asli-nur-t&theme=date_night" alt="Top Languages" width="500"/>
 </p>
 
 <p align="center">
