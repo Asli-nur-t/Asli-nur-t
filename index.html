@@ -25,6 +25,8 @@
             50% { background-position: 100% 100%; }
         }
 
+
+
         .language-selector {
             text-align: right;
             margin: 1rem;
@@ -93,6 +95,60 @@ header {
             margin-bottom: 1rem;
             
             text-decoration: none;color: #ffffff;
+        }
+        @keyframes slideIn {
+            from {
+                transform: translateY(50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        .slide-in {
+            opacity: 0; /* Başlangıçta görünmez */
+            animation: slideIn 0.8s ease-out forwards;
+        }
+
+        @keyframes slideInLeft {
+            from {
+                transform: translateX(-100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideInRight {
+            from {
+                transform: translateX(100px);
+                opacity: 0;
+            }
+            to {
+                transform: translateX(0);
+                opacity: 1;
+            }
+        }
+
+        .slide-in-left {
+            opacity: 0;
+            transform: translateX(-100px);
+            transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+        }
+
+        .slide-in-right {
+            opacity: 0;
+            transform: translateX(100px);
+            transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+        }
+
+        .visible {
+            opacity: 1 !important;
+            transform: translateX(0) !important;
         }
         section {
             padding: 2rem;
@@ -216,7 +272,7 @@ header {
         </div>
     </header>
 
-    <section id="about">
+    <section id="about" class="slide-in-right">
         <h2 data-key="about-title">Hakkımda 💫</h2>
         <p data-key="about-description">
           Merhaba! Ben Aslınur Topcu, Kocaeli Üniversitesi Bilgisayar Mühendisliği son sınıf öğrencisiyim. Yazılım geliştirme ve teknolojiye olan ilgimle sürekli öğrenmeyi ve kendimi geliştirmeyi hedefliyorum. Çeşitli programlama dilleri ve araçlarla çalışarak yenilikçi projeler üretmeye odaklanıyorum.<br><br>
@@ -229,7 +285,7 @@ header {
         </p>
     </section>
 
-    <section id="skills">
+    <section id="skills" class="slide-in-left">
         <h2 data-key="skills-title">Beceriler🔮</h2>
         <ul>
             <li data-key="skill-1">Python, Java, C++</li>
@@ -239,7 +295,7 @@ header {
         </ul>
     </section>
 
-    <section id="projects">
+    <section id="projects" class="slide-in-left">
         <h2 data-key="projects-title">Projeler🎀</h2>
         <div class="project-grid">
             <div class="project-card">
@@ -265,7 +321,7 @@ header {
         </div>
     </section>
 
-    <section id="contact">
+    <section id="contact" class="slide-in-right">
         <h2 data-key="contact-title">İletişim 🔗</h2>
         <p style="text-decoration: none; color: #5f6ed0; text-align: center; font-weight: bold; display: flex; align-items: center; gap: 8px;" >Email: <a href="mailto:asl.nurtopcu13@gmail.com">asl.nurtopcu13@gmail.com</a></p>
         <p style="text-decoration: none; color: #5f6ed0; text-align: center; font-weight: bold; display: flex; align-items: center; gap: 8px;" >LinkedIn: <a href="https://www.linkedin.com/in/asl%C4%B1nur-topcu-871023253/" target="_blank">Click here to reach me on LinkedIn.</a></p>
@@ -344,6 +400,23 @@ header {
                 element.textContent = translations[lang][key];
             });
         }
+
+ 
+        document.addEventListener("scroll", function () {
+            document.querySelectorAll(".slide-in-left, .slide-in-right").forEach(element => {
+                const rect = element.getBoundingClientRect();
+                const windowHeight = window.innerHeight || document.documentElement.clientHeight;
+
+                if (rect.top <= windowHeight && rect.bottom >= 0) {
+                    element.classList.add("visible");
+                } else {
+                    element.classList.remove("visible");
+                }
+            });
+        });
+
+
+        
     </script>
 </body>
 </html>
