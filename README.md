@@ -85,6 +85,10 @@
 
 <p align="center"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=asli-nur-t&theme=dracula" alt="asli-nur-t" /></a> </p>
 
+<a href="https://github.com/Asli-nur-t">
+    <img alt="count" src="http://moe-count.glitch.me/get/@Asli-nur-t?theme=rule34"/>
+</a>
+
 <p align="center">
   <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY3VmOXYxbDFvMTVxeDA4am5vZXltaTF1cDhqcmIwaHYyZ3EwNjNtZSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/HzPtbOKyBoBFsK4hyc/giphy.webp" width="500" height="500"/>
 </p>
