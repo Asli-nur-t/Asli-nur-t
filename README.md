@@ -26,14 +26,17 @@
   <a href="https://www.linkedin.com/in/asl%C4%B1nur-topcu-871023253/" target="_blank">
     <img align="center" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linkedin/linkedin-original.svg" alt="LinkedIn" height="50" width="50"/>
   </a>
-  &nbsp;&nbsp;&nbsp;
-  <a href="https://gitlab.com/Asli-nur-t" target="_blank">
-    <img align="center" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab" height="50" width="50"/>
-  </a>
 </p>
 
 
 ---
+<h3 align="center">📂 My GitLab Projects</h3>
+
+<p align="center">
+  You can also check out my personal and academic projects on <a href="https://gitlab.com/Asli-nur-t" target="_blank"><strong>GitLab</strong></a>.
+</p>
+---
+
 
 # Tech Stack
 
