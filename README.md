@@ -30,11 +30,19 @@
 
 
 ---
+
 <h3 align="center">📂 My GitLab Projects</h3>
+
+<p align="center">
+  <a href="https://gitlab.com/Asli-nur-t" target="_blank">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gitlab/gitlab-original.svg" alt="GitLab" height="50" width="50"/>
+  </a>
+</p>
 
 <p align="center">
   You can also check out my personal and academic projects on <a href="https://gitlab.com/Asli-nur-t" target="_blank"><strong>GitLab</strong></a>.
 </p>
+
 ---
 
 
